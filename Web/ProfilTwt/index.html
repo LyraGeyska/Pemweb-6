@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tampilan profil Twitter dengan HTML dan CSS." />
+    <meta name="keywords" content="Twitter, Profil, HTML, CSS, Media Sosial" />
+    <meta name="author" content="Lyra Geyska" />
+    <title>Twitter Profile</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <nav class="sidebar">
+        <div class="sidebar-logo">
+          <img src="images/logo.jpeg" alt="Logo">
+        </div>
+        <ul>
+          <li><span class="icon">🏠</span> <span>Home</span></li>
+                <li><span class="icon">🔍</span> <span>Explore</span></li>
+                <li><span class="icon">🔔</span> <span>Notifications</span></li>
+                <li><span class="icon">✉</span> <span>Messages</span></li>
+                <li><span class="icon">📊</span> <span>Grok</span></li>
+                <li><span class="icon">👥</span> <span>Communities</span></li>
+                <li><span class="icon">👤</span> <span>Profile</span></li>
+                <li><span class="icon">⋮</span> <span>More</span></li>
+        </ul>
+        <button class="post-btn">Post</button>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="header">
+          <div class="profile-header">
+              <span class="back-btn">←</span>
+              <div class="profile-name">
+                  <strong>JuicyLuicy</strong>
+                  <p class="post-count">55.4K posts</p>
+              </div>
+          </div>
+          <img src="images/banner.jpg" class="cover" alt="Cover Image">
+          <img src="images/profil2.png" class="profile-pic" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+          <div class="profile-details">
+            <h2>Juicy Luicy</h2>
+            <p class="username">@juicyluicy</p>
+            <p class="bio">Singer & Musicion</p>
+            <p class="details">⚧ she/they 19 • Joined September 2020</p>
+            <p class="stats">
+              <strong>12</strong> Following • <strong>4869</strong> Followers
+            </p>
+          </div>
+          <button class="edit-profile">Edit Profile</button>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+          <span class="active">Posts</span>
+          <span>Replies</span>
+          <span>Highlights</span>
+          <span>Articles</span>
+          <span>Media</span>
+          <span>Likes</span>
+        </div>
+
+        <!-- Post Content -->
+        <div class="content">
+          <div class="post-content">
+            <h2>Who to follow</h2>
+            <div class="suggestion">
+              <img src="images/profil2.png" class="suggestion-pic" alt="Elon Musk">
+              <div class="post-content">
+                <h3>Lyra Geyska</h3>
+                <p style="color: gray;">@sickandsuffer</p>
+                <p>Haikyuu Fans| Potterheads geyska</p>
+                <!-- <img src="images/post2.jpg" class="post-pic" alt="Elon Musk"> -->
+              </div>
+                <!-- <button class="follow-btn">Follow</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="right-sidebar">
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+        </div>
+        <!-- You Might Like -->
+        <div class="suggestions">
+            <h3>You might like</h3>
+            <div class="suggestion">
+                <img src="images/profil2.png" class="suggestion-pic" alt="Elon Musk">
+                <div class="suggestion-info">
+                    <strong>Juicy Luicy</strong>
+                    <p>@juicyluicy</p>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <div class="suggestion">
+                <img src="images/profil2.png" class="suggestion-pic" alt="Donald Trump">
+                <div class="suggestion-info">
+                    <strong>Lyra</strong>
+                    <p>@lyraaptr_</p>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <div class="suggestion">
+                <img src="images/profil2.png" class="suggestion-pic" alt="NFL">
+                <div class="suggestion-info">
+                    <strong>Juicy Luicy</strong>
+                    <p>@juicyluicy</p>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <a href="#" class="show-more">Show more</a>
+        </div>
+
+        <!-- Trending -->
+        <div class="trending">
+          <h3>What's happening</h3>
+          <div class="suggestion">
+            <div class="suggestion-info">
+              <p>Berita • Populer  </p>
+              <strong>Juicy Luicy</strong>
+              <p>29,6 rb postingan</p>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i><span></span>
+          </div>
+          <div class="suggestion">
+            <div class="suggestion-info">
+              <p>Sedang tren di Indonesia</p>
+              <strong>Emil</strong>
+              <p>17,5 rb postingan</p>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i><span></span>
+          </div>
+          <div class="suggestion">
+            <div class="suggestion-info">
+              <p>Topik • Olahraga  </p>
+              <strong>PSSI</strong>
+              <p>15,2 rb postingan</p>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i><span></span>
+          </div>
+          <div class="suggestion">
+            <div class="suggestion-info">
+              <p>Musik • Populer  </p>
+              <strong>Anggun</strong>
+              <p>17,2 rb postingan</p>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i><span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
